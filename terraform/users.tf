@@ -23,3 +23,8 @@ resource "oci_identity_user_capabilities_management" "user_capabilities_manageme
   can_use_customer_secret_keys = "false"
   can_use_smtp_credentials     = "false"
 }
+
+resource "oci_identity_ui_password" "ui_password" {
+  count   = var.num_users
+  user_id = oci_identity_user.users[count.index].id
+}
