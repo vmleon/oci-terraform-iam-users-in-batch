@@ -1,0 +1,4 @@
+config_file_profile = "DEFAULT"
+region              = "XXX"
+tenancy_ocid        = "XXX"
+compartment_ocid    = "XXX"
