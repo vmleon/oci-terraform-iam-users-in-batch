@@ -19,3 +19,20 @@ variable "region" {}
 variable "compartment_ocid" {}
 
 variable "config_file_profile" {}
+
+variable "group_name" {
+  type = string
+}
+
+variable "name" {
+  type = string
+}
+
+variable "description" {
+  type = string
+}
+
+variable "num_users" {
+  type    = number
+  default = 1
+}

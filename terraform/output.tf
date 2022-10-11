@@ -1,3 +1,3 @@
 output "users" {
-  value = "listofusers"
+  value = oci_identity_user.users.*.name
 }

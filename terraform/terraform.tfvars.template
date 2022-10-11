@@ -2,3 +2,7 @@ config_file_profile = "DEFAULT"
 region              = "XXX"
 tenancy_ocid        = "XXX"
 compartment_ocid    = "XXX"
+group_name          = "XXX"
+name                = "XXX"
+description         = "XXX"
+num_users           = 1
