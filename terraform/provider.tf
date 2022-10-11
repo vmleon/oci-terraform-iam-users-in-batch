@@ -16,8 +16,6 @@ variable "tenancy_ocid" {}
 
 variable "region" {}
 
-variable "compartment_ocid" {}
-
 variable "config_file_profile" {}
 
 variable "group_name" {

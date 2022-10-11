@@ -16,6 +16,8 @@ then
   export BASE_DIR=$(pwd)
 fi
 
+# Check the home region
+
 banner "Terraform Init"
 cd $BASE_DIR/terraform
 terraform init -upgrade
