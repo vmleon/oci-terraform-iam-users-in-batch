@@ -44,6 +44,10 @@ Run the script to start
 After the creation you will see the list of user names created:
 ![tf output](images/output.png)
 
+> NOTE: Creating users for Oracle Analytics Cloud?
+>
+> Go to [OAC Application Role next steps](OAC.md)
+
 ## Delete Users
 
 Run the script to destroy the users
