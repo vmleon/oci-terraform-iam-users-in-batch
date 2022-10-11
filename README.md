@@ -2,7 +2,7 @@
 
 This repository is for creating:
 - A bunch of IAM Users (no capabilities).
-- A IAM group.
+- An IAM group.
 
 ## Create Users
 
