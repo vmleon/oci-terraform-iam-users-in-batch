@@ -1,8 +1,8 @@
 resource "oci_identity_user" "users" {
   count          = var.num_users
   compartment_id = var.tenancy_ocid
-  description    = "User for ${var.description}: ${var.name}_${count.index}"
-  name           = "${var.name}_${count.index}"
+  description    = "User for ${var.description}: ${var.name}${count.index}"
+  name           = "${var.name}${count.index}"
 
   email = "${var.name}_${count.index}@example.com"
 }
